@@ -15,7 +15,7 @@ const Upload = () => {
     };
 
     const handleUpload = () => {
-        const cloudName = 'ductham087';
+        const cloudName = 'ductham087'; 
         if (selectedFile) {
             const formData = new FormData();
             formData.append('file', selectedFile);
